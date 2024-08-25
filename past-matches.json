@@ -1,0 +1,331 @@
+[
+    {
+      "match_id": "past_match1",
+      "team1": "Chelsea",
+      "team2": "Liverpool",
+      "team1_logo": "./images/Chelsea-logo.png",
+      "team2_logo": "./images/liverpool-logo.png",
+      "date": "2024-02-01",
+      "time": "7:00 PM",
+      "venue": "Stamford Bridge",
+      "team1_lineup": [
+        "Edouard Mendy (Goalkeeper)",
+        "Reece James",
+        "Thiago Silva",
+        "Ben Chilwell",
+        "NGolo Kante",
+        "Jorginho",
+        "Mason Mount",
+        "Hakim Ziyech",
+        "Timo Werner",
+        "Kai Havertz",
+        "Romelu Lukaku"
+      ],
+      "team2_lineup": [
+        "Alisson Becker (Goalkeeper)",
+        "Trent Alexander-Arnold",
+        "Virgil van Dijk",
+        "Andrew Robertson",
+        "Fabinho",
+        "Jordan Henderson",
+        "Thiago Alcantara",
+        "Mohamed Salah",
+        "Diogo Jota",
+        "Sadio Mane",
+        "Roberto Firmino"
+      ],
+      "result": {
+        "winner": "Liverpool",
+        "score": "2-3",
+        "details": "Liverpool won by 1 goal."
+      }
+    },
+    {
+      "match_id": "past_match2",
+      "team1": "Atletico Madrid",
+      "team2": "Inter Milan",
+      "team1_logo": "./images/Atletico-Madrid-Logo.png",
+      "team2_logo": "./images/inter-milan-logo.png",
+      "date": "2024-02-05",
+      "time": "9:00 PM",
+      "venue": "Wanda Metropolitano",
+      "team1_lineup": [
+        "Jan Oblak (Goalkeeper)",
+        "Kieran Trippier",
+        "Jose Gimenez",
+        "Stefan Savic",
+        "Renan Lodi",
+        "Koke",
+        "Rodrigo de Paul",
+        "Marcos Llorente",
+        "Joao Felix",
+        "Angel Correa",
+        "Luis Suarez"
+      ],
+      "team2_lineup": [
+        "Samir Handanovic (Goalkeeper)",
+        "Milan Skriniar",
+        "Stefan de Vrij",
+        "Alessandro Bastoni",
+        "Marcelo Brozovic",
+        "Nicolo Barella",
+        "Arturo Vidal",
+        "Ivan Perisic",
+        "Lautaro Martinez",
+        "Edin Dzeko",
+        "Hakan Calhanoglu"
+      ],
+      "result": {
+        "winner": "Inter Milan",
+        "score": "1-2",
+        "details": "Inter Milan won by 1 goal."
+      }
+    },
+    {
+      "match_id": "past_match3",
+      "team1": "Barcelona",
+      "team2": "Paris Saint-Germain",
+      "team1_logo": "./images/Barcelona-logo.png",
+      "team2_logo": "./images/Paris_Saint-Germain-logo.png",
+      "date": "2024-02-10",
+      "time": "8:00 PM",
+      "venue": "Camp Nou",
+      "team1_lineup": [
+        "Marc-André ter Stegen (Goalkeeper)",
+        "Sergi Roberto",
+        "Gerard Pique",
+        "Jordi Alba",
+        "Frenkie de Jong",
+        "Sergio Busquets",
+        "Pedri",
+        "Ousmane Dembele",
+        "Antoine Griezmann",
+        "Memphis Depay",
+        "Luuk de Jong"
+      ],
+      "team2_lineup": [
+        "Keylor Navas (Goalkeeper)",
+        "Achraf Hakimi",
+        "Marquinhos",
+        "Sergio Ramos",
+        "Juan Bernat",
+        "Marco Verratti",
+        "Georginio Wijnaldum",
+        "Leandro Paredes",
+        "Kylian Mbappe",
+        "Neymar Jr.",
+        "Mauro Icardi"
+      ],
+      "result": {
+        "winner": "Paris Saint-Germain",
+        "score": "1-4",
+        "details": "Paris Saint-Germain won by 3 goals."
+      }
+    },
+    {
+      "match_id": "past_match4",
+      "team1": "Borussia Dortmund",
+      "team2": "Manchester City",
+      "team1_logo": "./images/Borussia_Dortmund_logo.png",
+      "team2_logo": "./images/Manchester_City-logo.png",
+      "date": "2024-02-15",
+      "time": "6:30 PM",
+      "venue": "Signal Iduna Park",
+      "team1_lineup": [
+        "Gregor Kobel (Goalkeeper)",
+        "Mats Hummels",
+        "Raphael Guerreiro",
+        "Manuel Akanji",
+        "Axel Witsel",
+        "Jude Bellingham",
+        "Emre Can",
+        "Julian Brandt",
+        "Giovanni Reyna",
+        "Marco Reus",
+        "Erling Haaland"
+      ],
+      "team2_lineup": [
+        "Ederson (Goalkeeper)",
+        "Kyle Walker",
+        "Ruben Dias",
+        "Aymeric Laporte",
+        "Joao Cancelo",
+        "Rodri",
+        "Kevin De Bruyne",
+        "Bernardo Silva",
+        "Phil Foden",
+        "Raheem Sterling",
+        "Gabriel Jesus"
+      ],
+      "result": {
+        "winner": "Manchester City",
+        "score": "0-2",
+        "details": "Manchester City won by 2 goals."
+      }
+    },
+    {
+      "match_id": "past_match5",
+      "team1": "Juventus",
+      "team2": "Real Madrid",
+      "team1_logo": "./images/Juventus-logo.png",
+      "team2_logo": "./images/real-madrid-logo.png",
+      "date": "2024-02-20",
+      "time": "9:00 PM",
+      "venue": "Allianz Stadium",
+      "team1_lineup": [
+        "Wojciech Szczesny (Goalkeeper)",
+        "Leonardo Bonucci",
+        "Matthijs de Ligt",
+        "Alex Sandro",
+        "Juan Cuadrado",
+        "Arthur Melo",
+        "Manuel Locatelli",
+        "Weston McKennie",
+        "Federico Chiesa",
+        "Paulo Dybala",
+        "Alvaro Morata"
+      ],
+      "team2_lineup": [
+        "Thibaut Courtois (Goalkeeper)",
+        "Dani Carvajal",
+        "Eder Militao",
+        "David Alaba",
+        "Ferland Mendy",
+        "Casemiro",
+        "Toni Kroos",
+        "Luka Modric",
+        "Vinicius Junior",
+        "Karim Benzema",
+        "Rodrygo"
+      ],
+      "result": {
+        "winner": "Real Madrid",
+        "score": "1-3",
+        "details": "Real Madrid won by 2 goals."
+      }
+    },
+    {
+      "match_id": "past_match6",
+      "team1": "AC Milan",
+      "team2": "Bayern Munich",
+      "team1_logo": "./images/AC Milan-logo.png",
+      "team2_logo": "./images/bayern-munich-logo.png",
+      "date": "2024-02-25",
+      "time": "7:45 PM",
+      "venue": "San Siro",
+      "team1_lineup": [
+        "Mike Maignan (Goalkeeper)",
+        "Davide Calabria",
+        "Fikayo Tomori",
+        "Theo Hernandez",
+        "Ismael Bennacer",
+        "Franck Kessie",
+        "Sandro Tonali",
+        "Alexis Saelemaekers",
+        "Brahim Diaz",
+        "Rafael Leao",
+        "Olivier Giroud"
+      ],
+      "team2_lineup": [
+        "Manuel Neuer (Goalkeeper)",
+        "Benjamin Pavard",
+        "Niklas Sule",
+        "Lucas Hernandez",
+        "Alphonso Davies",
+        "Joshua Kimmich",
+        "Leon Goretzka",
+        "Thomas Muller",
+        "Kingsley Coman",
+        "Serge Gnabry",
+        "Robert Lewandowski"
+      ],
+      "result": {
+        "winner": "Bayern Munich",
+        "score": "1-2",
+        "details": "Bayern Munich won by 1 goal."
+      }
+    },
+    {
+      "match_id": "past_match7",
+      "team1": "Napoli",
+      "team2": "Arsenal",
+      "team1_logo": "./images/nepoli-logo.png",
+      "team2_logo": "./images/Arsenal-logo.png",
+      "date": "2024-02-28",
+      "time": "8:00 PM",
+      "venue": "Stadio San Paolo",
+      "team1_lineup": [
+        "David Ospina (Goalkeeper)",
+        "Giovanni Di Lorenzo",
+        "Kalidou Koulibaly",
+        "Mário Rui",
+        "Fabian Ruiz",
+        "Piotr Zielinski",
+        "André-Frank Zambo Anguissa",
+        "Hirving Lozano",
+        "Lorenzo Insigne",
+        "Victor Osimhen",
+        "Dries Mertens"
+      ],
+      "team2_lineup": [
+        "Aaron Ramsdale (Goalkeeper)",
+        "Ben White",
+        "Gabriel Magalhães",
+        "William Saliba",
+        "Kieran Tierney",
+        "Thomas Partey",
+        "Granit Xhaka",
+        "Martin Ødegaard",
+        "Bukayo Saka",
+        "Gabriel Martinelli",
+        "Alexandre Lacazette"
+      ],
+      "result": {
+        "winner": "Napoli",
+        "score": "2-1",
+        "details": "Napoli won by 1 goal."
+      }
+    },
+    {
+      "match_id": "past_match8",
+      "team1": "Porto",
+      "team2": "Tottenham Hotspur",
+      "team1_logo": "./images/Porto-logo.png",
+      "team2_logo": "./images/Tottenham Hotspur-logo.png",
+      "date": "2024-02-29",
+      "time": "9:00 PM",
+      "venue": "Estádio do Dragão",
+      "team1_lineup": [
+        "Diogo Costa (Goalkeeper)",
+        "Pepe",
+        "Marcano",
+        "Mário",
+        "Zaidu",
+        "Otavio",
+        "Mateus Uribe",
+        "Sérgio Oliveira",
+        "Luis Díaz",
+        "Mehdi Taremi",
+        "Evanilson"
+      ],
+      "team2_lineup": [
+        "Hugo Lloris (Goalkeeper)",
+        "Emerson Royal",
+        "Cristian Romero",
+        "Eric Dier",
+        "Ben Davies",
+        "Pierre-Emile Hojbjerg",
+        "Rodrigo Bentancur",
+        "Dejan Kulusevski",
+        "Son Heung-min",
+        "Richarlison",
+        "Harry Kane"
+      ],
+      "result": {
+        "winner": "Porto",
+        "score": "3-2",
+        "details": "Porto won by 1 goal."
+      }
+    }
+  ]
+  

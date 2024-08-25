@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soccer Verse</title>
+    <link rel="icon" href="./images/logo.jpeg">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+    <!-- global css -->
+    <link rel="stylesheet" href="./global.css">
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- poppins font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- amsterdam font -->
+    <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+
+</head>
+
+<body style="overflow-x: hidden;">
+    <div id="formMsg">
+        <i class="fa-regular fa-thumbs-up"></i>
+        <p>Your Feedback Sent</p>
+        <div class="line"></div>
+    </div>
+
+    <div class="banner">
+        <nav>
+            <div class="left">
+                <div class="logo">
+                    <img src="./images/logo.jpeg" alt="" width="80px" height="80px">
+                </div>
+                <i class="fa-solid fa-bars" onclick="openSideNavbar()"></i>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a onclick="goToAbout()">About</a></li>
+                    <li><a onclick="goToMatches()">Matches</a></li>
+                    <li><a onclick="goToTopPlayers()">Top Players</a></li>
+                    <li><a onclick="goToEvents()">Events</a></li>
+                    <li><a onclick="goToFeedback()">Feedback</a></li>
+                    <li><a onclick="goToContacts()">Contact Us</a></li>
+                    <li><a href="./sitemap.html">SiteMap</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <div class="links">
+                    <li><a href="https://www.facebook.com"><i class="fa-brands fa-facebook fa-fade"></i></a></li>
+                    <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-fade"></i></a></li>
+                    <li><a href="https://twitter.com"><i class="fa-brands fa-x-twitter fa-fade"></i></a></li>
+                </div>
+            </div>
+        </nav>
+        <div id="sideNavbar">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a onclick="goToAbout()">About</a></li>
+                <li><a onclick="goToMatches()">Matches</a></li>
+                <li><a onclick="goToTopPlayers()">Top Players</a></li>
+                <li><a onclick="goToEvents()">Events</a></li>
+                <li><a onclick="goToFeedback()">Feedback</a></li>
+                <li><a onclick="goToContacts()">Contact Us</a></li>
+                <li><a href="./sitemap.html">SiteMap</a></li>
+            </ul>
+            <i class="fa-solid fa-xmark" id="close-icon" onclick="closeSideNavbar()"></i>
+        </div>
+        <img src="./images/banner-1st-image.jpg" class="banner-image active" />
+        <img src="./images/banner-2nd-image.jpg" class="banner-image" />
+        <img src="./images/banner-3rd-image.jpg" class="banner-image" />
+        <div class="shade-color"></div>
+        <div class="banner-content">
+            <h3>Welcome</h3>
+            <h1>Soccer Verse, Where every Match Matters</h1>
+            <p>Your Ultimate Destination for Soccer Scores, Match Schedules, and top Player Profiles. Stay connected
+                with real-time updates and explore the latest in soccer, all in one place.</p>
+            <button type="button" onclick="scrollToAbout()">Explore More</button>
+        </div>
+    </div>
+
+    <div id="about-section">
+
+        <div class="content"  data-aos="fade-right"  data-aos-duration="1500">
+            <h3>Our Story</h3>
+            <h1>About SoccerVerse</h1>
+            <p>
+                Welcome to SoccerVerse, the ultimate destination for soccer enthusiasts. We bring you comprehensive
+                coverage of the soccer world, offering real-time scores, detailed match schedules, and in-depth player
+                profiles. Our platform is designed to keep you informed and engaged, whether you're tracking your
+                favorite teams, analyzing player stats, or simply enjoying the latest updates in the sport. At
+                SoccerVerse, we are passionate about soccer, and our mission is to provide a seamless and enjoyable
+                experience for fans and players alike. Join us as we celebrate the beautiful game, one match at a time.
+            </p>
+        </div>
+        <div class="images" data-aos="fade-left"   data-aos-duration="1500">
+            <img src="./images/1st-img-about-section.jpg" alt="" class="first-img">
+            <img src="./images/2nd-img-about-section.jpg" alt="" class="second-img">
+            <img src="./images/3rd-img-about-section.jpg" alt="" class="third-img">
+            <img src="./images/fourth-img-about-section.jpg" alt="" class="fourth-img">
+            <img src="./images/logo.jpeg" alt="" class="logo-img">
+        </div>
+    </div>
+
+    <div id="matches-section">
+        <div class="top-content">
+            <h3>Our</h3>
+            <h1>Matches Schedule</h1>
+        </div>
+
+        <div class="matches"   data-aos="fade-up"   data-aos-duration="1500">
+
+        </div>
+
+        <button onclick="window.location.href='./all-matches.html'">All Matches</button>
+    </div>
+
+    <div id="top-players-section" >
+        <div class="top-content" >
+            <h3>Our</h3>
+            <h1>Top Players</h1>
+        </div>
+        <div class="table-container">
+            <table id="top-players-table">
+                <thead>
+                    <tr>
+                        <th>Player Name</th>
+                        <th>Team</th>
+                        <th>Goals</th>
+                        <th>Assists</th>
+                        <th>Total Points</th>
+                    </tr>
+                </thead>
+                <tbody id="top-players-body">
+                    <!-- Data will be dynamically inserted here -->
+                </tbody>
+            </table>
+        </div>
+
+
+        <button onclick="window.location.href='./top-player.html'">Top 10 Players</button>
+    </div>
+
+    <div id="players-gallery-section" >
+        <div class="top-content" >
+            <h3>Our</h3>
+            <h1>Player Gallery</h1>
+        </div>
+
+        <div id="moving-cards">
+            <div class="cards-wrap" style="--time: 8s; --totalItems: 8;">
+
+            </div>
+        </div>
+    </div>
+
+    <div id="events-section">
+        <div id="upcoming-events"  >
+            <div class="top-content">
+                <h3>Our</h3>
+                <h1>Upcomming Big Events</h1>
+            </div>
+            <div class="big-events"  data-aos="fade-up" data-aos-duration="1500">
+
+            </div>
+
+            <button onclick="window.location.href='./all-matches.html'">All Matches</button>
+        </div>
+
+        <div id="past-events">
+            <div class="top-content">
+                <h3>Our</h3>
+                <h1>Past Events</h1>
+            </div>
+            <div class="past-events"  data-aos="fade-up" data-aos-duration="1500">
+
+            </div>
+
+            <button onclick="window.location.href='./all-matches.html?id=past'">All Past Matches</button>
+        </div>
+    </div>
+
+    <div id="feedback-section">
+        <div class="top-content">
+            <h3>Give</h3>
+            <h1>Your Feedback</h1>
+        </div>
+
+        <div class="fead-parent" >
+            <div class="form" data-aos="fade-right"   data-aos-duration="1500">
+                <form action="">
+                    <div class="feed-name">
+                        <input type="text" placeholder="Your Name" id="feed-name" onkeypress="return onlyAlphabet(event)"
+                            autocomplete="off" oninput="fillInputsFields()">
+                        <div class="name-error">.</div>
+                    </div>
+
+                    <div class="feed-email">
+                        <input type="email" placeholder="Email" id="feed-email" autocomplete="off"
+                            oninput="fillInputsFields()"><br>
+                        <div class="email-error">.</div>
+                    </div>
+
+                    <div class="feed-msg">
+                        <textarea name="Message" placeholder="Message" id="feed-message" cols="6" rows="8" autocomplete="off"
+                            oninput="fillInputsFields()"></textarea>
+                        <div class="msg-error">.</div>
+                    </div>
+
+                    <button type="submit" id="btn" onclick="checkFeedFoam(event)">Submit</button>
+
+                </form>
+            </div>
+            <div id="player-img" data-aos="fade-left"   data-aos-duration="1500">
+                <div class="box row-2" id="box-1"></div>
+                <div class="box col-2" id="box-2"></div>
+                <div class="box " id="box-3"></div>
+                <div class="box row-2" id="box-4"></div>
+                <div class="box col-2" id="box-5"></div>
+                <div class="box" id="box-6"></div>
+                <div class="box col-2" id="box-7"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact-us-section">
+        <div class="top-content">
+            <h3>Come</h3>
+            <h1>Contact With Us</h1>
+        </div>
+
+        <!-- form -->
+        <div class="contact-parent">
+            <div class="contact-form" data-aos="fade-right" data-aos-duration="1500">
+                <h1>GET IN TOUCH</h1>
+                <form>
+                    <div class="fields" data-aos="fade-right">
+                        <div class="name">
+                            <input type="text" placeholder="Your Name" id="name" onkeypress="return onlyAlphabet(event)"
+                                autocomplete="off" oninput="fillInputsFields()">
+                            <div class="name-error">.</div>
+                        </div>
+                        <div class="email-field">
+                            <input type="email" placeholder="Your Email" id="email" autocomplete="off"
+                                oninput="fillInputsFields()">
+                            <div class="email-error">.</div>
+                        </div>
+                        <div class="msg">
+                            <textarea name="Message" placeholder="Message" id="message" cols="6" rows="8"
+                                autocomplete="off" oninput="fillInputsFields()"></textarea>
+                            <div class="msg-error">.</div>
+                        </div>
+                    </div>
+                    <button id="contact-btn" onclick="checkFoam(event)">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+            <div class="contact-location" data-aos="fade-left" data-aos-duration="1500">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d924237.7102832987!2d66.49592655461542!3d25.19298358086938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e06651d4bbf%3A0x9cf92f44555a0c23!2sKarachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1721295706365!5m2!1sen!2s"
+                    style="border: none;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" data-aos="fade-left">
+                </iframe>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <!-- section 1 -->
+        <div id="footer-parent">
+            <div class="section-1">
+                <img src="./images/logo.jpeg" alt="">
+                <h1>SOCCER VERSE</h1>
+            </div>
+            <div class="section-2">
+                <p>
+                    Soccer, or football, is a global sport with two teams of 11 aiming to score goals. Matches last 90
+                    minutes, with key rules like the offside rule and penalties for fouls.
+                </p>
+            </div>
+        </div>
+        <!-- section  2 -->
+        <div id="footer-links">
+            <!-- <div class="links"> -->
+            <div id="page-link">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a onclick="goToAbout()">About</a></li>
+                    <li><a onclick="goToMatches()">Matches</a></li>
+                    <li><a onclick="goToTopPlayers()">Top Players</a></li>
+                    <li><a onclick="goToEvents()">Events</a></li>
+                    <li><a onclick="goToFeedback()">Feedback</a></li>
+                    <li><a onclick="goToContacts()">Contact Us</a></li>
+                    <li><a href="./sitemap.html">SiteMap</a></li>
+                </ul>
+            </div>
+            <ul id="social-link">
+                <li><a href="https://www.facebook.com"><i class="fa-brands fa-facebook fa-fade"></i></a></li>
+                <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-fade"></i></a></li>
+                <li><a href="https://twitter.com"><i class="fa-brands fa-x-twitter fa-fade"></i></a></li>
+            </ul>
+            <!-- </div> -->
+            <div id="copyright">
+                <h5>Soccer Verse &copy; 2024.All Right Reserved</h5>
+            </div>
+        </div>
+    </footer>
+   <!-- aos -->
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+    AOS.init();
+   </script>
+    <script src="./script.js"></script>
+    <script src="./global.js"></script>
+</body>
+
+</html>

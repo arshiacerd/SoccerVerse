@@ -1,0 +1,163 @@
+[
+  {
+    "player_id": "player1",
+    "name": "Diogo Jota",
+    "team": "Liverpool",
+    "nationality": "Portuguese",
+    "height": "1.78 m",
+    "weight": "73 kg",
+    "past_team": "Wolverhampton Wanderers",
+    "biography": "Diogo Jota is a professional footballer from Portugal who currently plays as a forward for Liverpool FC. Jota began his professional career with Paços de Ferreira before making a name for himself in European football with Atlético Madrid. He later moved to Wolverhampton Wanderers, where he became a key player. In 2020, he joined Liverpool FC and quickly established himself as a versatile and dynamic forward, known for his pace, dribbling skills, and ability to score crucial goals. Jota has also represented Portugal at various levels, including the senior national team, where he continues to be an important contributor.",
+    "statistics": {
+      "goals": 15,
+      "assists": 7,
+      "appearances": 30
+    },
+    "image": "./images/Diogo Jota-img.jpeg"
+  },
+  {
+    "player_id": "player2",
+    "name": "Mason Mount",
+    "team": "Chelsea",
+    "nationality": "English",
+    "height": "1.81 m",
+    "weight": "74 kg",
+    "past_team": "Derby County",
+    "biography": "Mason Mount is an English midfielder who plays for Chelsea FC. He began his career in Chelsea's youth academy before gaining significant experience on loan at Derby County under manager Frank Lampard. His performances there earned him a place in Chelsea's first team, where he has since become a key player. Known for his versatility, creativity, and work ethic, Mount is capable of playing in multiple midfield positions. He has also been a regular fixture in the England national team, contributing to their success in various international tournaments.",
+    "statistics": {
+      "goals": 12,
+      "assists": 10,
+      "appearances": 28
+    },
+    "image": "./images/Mason Mount-img.jfif"
+  },
+  {
+    "player_id": "player3",
+    "name": "Lautaro Martinez",
+    "team": "Inter Milan",
+    "nationality": "Argentine",
+    "height": "1.74 m",
+    "weight": "81 kg",
+    "past_team": "Racing Club",
+    "biography": "Lautaro Martinez is an Argentine professional footballer who plays as a forward for Inter Milan. Martinez began his career with Racing Club in Argentina, where his impressive performances earned him a move to Inter Milan in 2018. At Inter, Martinez has formed a potent partnership with Romelu Lukaku, helping the team win the Serie A title in the 2020-2021 season. Known for his aggressive playing style, technical skills, and ability to score from various positions on the field, Martinez has also been a regular contributor to the Argentina national team, helping them win the Copa America in 2021.",
+    "statistics": {
+      "goals": 14,
+      "assists": 5,
+      "appearances": 26
+    },
+    "image": "./images/Lautaro Martinez-img.jpg"
+  },
+  {
+    "player_id": "player4",
+    "name": "Joao Felix",
+    "team": "Atletico Madrid",
+    "nationality": "Portuguese",
+    "height": "1.81 m",
+    "weight": "70 kg",
+    "past_team": "Benfica",
+    "biography": "Joao Felix is a Portuguese forward who plays for Atlético Madrid. Felix began his career at Benfica, where his standout performances quickly caught the attention of top European clubs. In 2019, he made a high-profile move to Atlético Madrid, becoming one of the most expensive transfers in history. Felix is known for his technical skills, dribbling ability, and attacking flair. Despite his young age, he has shown maturity on the field and has become an integral part of Atlético's squad. Felix also represents Portugal at the international level, where he continues to develop into one of the most promising talents in world football.",
+    "statistics": {
+      "goals": 11,
+      "assists": 8,
+      "appearances": 27
+    },
+    "image": "./images/Joao Felix-img.jpg"
+  },
+  {
+    "player_id": "player5",
+    "name": "Kylian Mbappe",
+    "team": "Paris Saint-Germain",
+    "nationality": "French",
+    "height": "1.78 m",
+    "weight": "73 kg",
+    "past_team": "Monaco",
+    "biography": "Kylian Mbappe is a French professional footballer who plays as a forward for Paris Saint-Germain (PSG). Mbappe began his career with AS Monaco, where he quickly rose to prominence as one of the brightest young talents in world football. His performances earned him a move to PSG, where he has continued to excel, becoming one of the top players globally. Known for his extraordinary speed, dribbling, and goal-scoring abilities, Mbappe has been instrumental in PSG's domestic success and deep runs in the UEFA Champions League. He has also played a key role in the French national team, helping them win the 2018 FIFA World Cup.",
+    "statistics": {
+      "goals": 18,
+      "assists": 6,
+      "appearances": 29
+    },
+    "image": "./images/Kylian Mbappe-img.jpg"
+  },
+  {
+    "player_id": "player6",
+    "name": "Kevin De Bruyne",
+    "team": "Manchester City",
+    "nationality": "Belgian",
+    "height": "1.81 m",
+    "weight": "70 kg",
+    "past_team": "Wolfsburg",
+    "biography": "Kevin De Bruyne is a Belgian midfielder who plays for Manchester City. De Bruyne began his professional career with Genk in Belgium before moving to Chelsea in the Premier League. After struggling for playing time, he moved to Wolfsburg in Germany, where he became one of the Bundesliga's top players. In 2015, he joined Manchester City and has since become one of the best midfielders in the world. Known for his exceptional passing, vision, and ability to control the tempo of the game, De Bruyne has been a key figure in Manchester City's domestic and European successes. He also plays a crucial role in the Belgian national team, contributing to their success in various international tournaments.",
+    "statistics": {
+      "goals": 10,
+      "assists": 15,
+      "appearances": 32
+    },
+    "image": "./images/Kevin De Bruyne-img.jfif"
+  },
+  {
+    "player_id": "player7",
+    "name": "Paulo Dybala",
+    "team": "Juventus",
+    "nationality": "Argentine",
+    "height": "1.77 m",
+    "weight": "75 kg",
+    "past_team": "Palermo",
+    "biography": "Paulo Dybala is an Argentine professional footballer who plays as a forward for Juventus. Dybala began his career in Argentina with Instituto before moving to Europe to join Palermo in Italy. His performances at Palermo earned him a move to Juventus, where he has become a key player. Known for his creativity, dribbling, and goal-scoring prowess, Dybala has won multiple Serie A titles with Juventus and has been recognized as one of the best forwards in the league. He has also been a regular member of the Argentina national team, where he has contributed to their success on the international stage.",
+    "statistics": {
+      "goals": 13,
+      "assists": 7,
+      "appearances": 25
+    },
+    "image": "./images/Paulo Dybala-img.jfif"
+  },
+  {
+    "player_id": "player8",
+    "name": "Thomas Muller",
+    "team": "Bayern Munich",
+    "nationality": "German",
+    "height": "1.86 m",
+    "weight": "76 kg",
+    "past_team": "None",
+    "biography": "Thomas Muller is a German professional footballer who plays as a forward for Bayern Munich. Muller is a one-club man, having spent his entire career at Bayern Munich, where he has become one of the most successful and consistent players in the club's history. Known for his unique playing style, exceptional positioning, and ability to find space in the opponent's defense, Muller has been a key player for Bayern in their domestic and European successes. He has won multiple Bundesliga titles, UEFA Champions League titles, and other honors with the club. Muller is also a crucial part of the German national team, having won the 2014 FIFA World Cup.",
+    "statistics": {
+      "goals": 12,
+      "assists": 8,
+      "appearances": 27
+    },
+    "image": "./images/Thomas Muller-img.jfif"
+  },
+  {
+    "player_id": "player9",
+    "name": "Zlatan Ibrahimovic",
+    "team": "AC Milan",
+    "nationality": "Swedish",
+    "height": "1.95 m",
+    "weight": "95 kg",
+    "past_team": "LA Galaxy",
+    "biography": "Zlatan Ibrahimovic is a Swedish professional footballer who plays as a forward for AC Milan. Ibrahimovic is one of the most decorated and well-known footballers in the world, having played for some of the biggest clubs in Europe, including Ajax, Juventus, Inter Milan, Barcelona, Paris Saint-Germain, Manchester United, and LA Galaxy. Known for his strength, technical skill, and goal-scoring ability, Ibrahimovic has won league titles in multiple countries and is regarded as one of the greatest forwards of his generation. He returned to AC Milan in 2020, where he continues to play at a high level despite his age. Ibrahimovic is also the all-time leading scorer for the Swedish national team.",
+    "statistics": {
+      "goals": 10,
+      "assists": 5,
+      "appearances": 22
+    },
+    "image": "./images/Zlatan Ibrahimovic-img.webp"
+  },
+  {
+    "player_id": "player10",
+    "name": "Heung-Min Son",
+    "team": "Tottenham Hotspur",
+    "nationality": "South Korean",
+    "height": "1.83 m",
+    "weight": "78 kg",
+    "past_team": "Bayer Leverkusen",
+    "biography": "Heung-Min Son is a South Korean professional footballer who plays as a forward for Tottenham Hotspur. Son began his career in Germany with Hamburger SV before moving to Bayer Leverkusen, where he developed into one of the Bundesliga's most exciting talents. In 2015, he joined Tottenham Hotspur, where he has become one of the Premier League's top players. Known for his speed, finishing, and versatility, Son has been a consistent goal scorer for Tottenham and has formed a deadly partnership with Harry Kane. Son is also the captain of the South Korea national team, leading them to several successful campaigns in international tournaments.",
+    "statistics": {
+      "goals": 11,
+      "assists": 6,
+      "appearances": 23
+    },
+    "image": "./images/heung-min-son-img.jpg"
+  }
+]
+

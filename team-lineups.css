@@ -1,0 +1,96 @@
+.banner-content{
+    text-align: center;
+    left: 50%;
+    top: 60%;
+    bottom: 0%;
+    transform: translate(-50%,-50%);
+    h3{
+        text-transform: capitalize;
+    }
+}
+
+main{
+    padding: 10px 30px;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    justify-content: space-around;
+    margin-top: 50px;
+    row-gap: 30px;
+    .team{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        gap: 20px;
+        /* border: 1px solid #cfcece; */
+    }
+
+    h1{
+        font-family: var(--amsterdam);
+        font-size: 2em;
+        text-align: center;
+        text-decoration: underline;
+        /* color: #7c7b7b; */
+    }
+    img{
+        margin: auto;
+        width: 100px;
+        height: 100px;
+    }
+    h4{
+        font-size: 1.5em;
+        text-align: center;
+        color: #7c7b7b;
+        font-family: var(--poppins);
+    }
+    table{
+        margin-top: 10px;
+        width: 100%;
+        td{
+            padding: 7px;
+            font-size: 1em;
+            border-bottom: 1px solid #f1eeee;
+            font-family: var(--poppins);
+            text-transform: capitalize;
+            color: var(--blueColor);
+            font-weight: 600;
+            transition: .2s;
+            &:hover{
+                background-color: #f7f7f7;
+                scale: 1.1;
+            }
+        }
+    }
+
+
+    .match-info,.match-result{
+        grid-column: 1/3;
+        display: flex;
+        flex-direction: column;
+        h3{
+            background-color: #e7e6e6;
+            padding: 5px;
+            font-size: 1.5em;
+            font-family: var(--amsterdam);
+            color: var(--redColor);
+        }
+        p{
+            /* margin-top: 10px; */
+            border-bottom: 1px solid #e7e6e6;
+            background-color: #fcfcfc;
+            padding: 5px;
+            font-family: var(--poppins);
+        }
+
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    main{
+        grid-template-columns: 90%;
+        .team{
+            grid-column: 1/3;
+        }
+    }
+}

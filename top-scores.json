@@ -1,0 +1,92 @@
+[
+  {
+    "player_id": "player1",
+    "name": "Diogo Jota",
+    "team": "Liverpool",
+    "goals": 15,
+    "assists": 7,
+    "total_points": 22,
+    "image": "./images/Diogo Jota-img.jpeg"
+  },
+  {
+    "player_id": "player2",
+    "name": "Mason Mount",
+    "team": "Chelsea",
+    "goals": 12,
+    "assists": 10,
+    "total_points": 22,
+    "image": "./images/Mason Mount-img.jfif"
+  },
+  {
+    "player_id": "player3",
+    "name": "Lautaro Martinez",
+    "team": "Inter Milan",
+    "goals": 14,
+    "assists": 5,
+    "total_points": 19,
+    "image": "./images/Lautaro Martinez-img.jpg"
+  },
+  {
+    "player_id": "player4",
+    "name": "Joao Felix",
+    "team": "Atletico Madrid",
+    "goals": 11,
+    "assists": 8,
+    "total_points": 19,
+    "image": "./images/Joao Felix-img.jpg"
+  },
+  {
+    "player_id": "player5",
+    "name": "Kylian Mbappe",
+    "team": "Paris Saint-Germain",
+    "goals": 18,
+    "assists": 6,
+    "total_points": 24,
+    "image": "./images/Kylian Mbappe-img.jpg"
+  },
+  {
+    "player_id": "player6",
+    "name": "Kevin De Bruyne",
+    "team": "Manchester City",
+    "goals": 10,
+    "assists": 15,
+    "total_points": 25,
+    "image": "./images/Kevin De Bruyne-img.jfif"
+  },
+  {
+    "player_id": "player7",
+    "name": "Paulo Dybala",
+    "team": "Juventus",
+    "goals": 13,
+    "assists": 7,
+    "total_points": 20,
+    "image": "./images/Paulo Dybala-img.jfif"
+  },
+  {
+    "player_id": "player8",
+    "name": "Thomas Muller",
+    "team": "Bayern Munich",
+    "goals": 12,
+    "assists": 8,
+    "total_points": 20,
+    "image": "./images/Thomas Muller-img.jfif"
+  },
+  {
+    "player_id": "player9",
+    "name": "Zlatan Ibrahimovic",
+    "team": "AC Milan",
+    "goals": 10,
+    "assists": 5,
+    "total_points": 15,
+    "image": "./images/Zlatan Ibrahimovic-img.webp"
+  },
+  {
+    "player_id": "player10",
+    "name": "Heung-Min Son",
+    "team": "Tottenham Hotspur",
+    "goals": 11,
+    "assists": 6,
+    "total_points": 17,
+    "image": "./images/heung-min-son-img.jpg"
+  }
+]
